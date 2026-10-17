@@ -45,7 +45,7 @@
 
 1. 安装 [Arduino IDE](https://www.arduino.cc/en/software)
 2. 打开 **开发板管理器**，搜索 `esp32`，安装 **esp32 by Espressif Systems**
-3. 打开本仓库里的 `pm25_monitor/pm25_monitor.ino`
+3. 打开本仓库里的 `pm25_monitor.ino`
 4. 修改代码开头的 WiFi 名和密码（**只支持 2.4GHz WiFi**）：
 ```cpp
    const char* WIFI_SSID = "你的WiFi名";
